@@ -187,7 +187,7 @@ with stop_col:
     if st.button(
         "Parar imediatamente",
         use_container_width=True,
-        disabled=not CONTROLLER.is_running(),
+       # disabled=not CONTROLLER.is_running(),
     ):
         CONTROLLER.stop()
         st.rerun()
