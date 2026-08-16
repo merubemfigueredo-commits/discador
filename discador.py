@@ -81,14 +81,14 @@ def render_live_status() -> None:
  #   "locais, regras de telemarketing e os termos do seu provedor."
 #)
 
-with st.sidebar:
-    st.header("Configuração")
-    region = st.selectbox(
-        "País padrão dos números sem +",
-        options=["BR", "US", "PT", "AR", "CL", "CO"],
-        index=0,
-        help="Exemplo: 11987654321 será interpretado como Brasil quando BR estiver selecionado.",
-    )
+#with st.sidebar:
+ #   st.header("Configuração")
+  #  region = st.selectbox(
+   #     "País padrão dos números sem +",
+   #   options=["BR", "US", "PT", "AR", "CL", "CO"],
+   #     index=0,
+   #     help="Exemplo: 11987654321 será interpretado como Brasil quando BR estiver selecionado.",
+   # )
     mode = st.selectbox(
         "Modo de operação",
         ["Demonstração (não faz chamadas)", "Twilio (chamadas reais)"],
