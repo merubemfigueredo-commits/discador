@@ -66,12 +66,12 @@ def render_live_status() -> None:
 
 
 @st.fragment(run_every=2)
-def live_status_fragment() -> None:
+#def live_status_fragment() -> None:
     #render_live_status()
 
 
 #st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
-st.title("Discador de lista")
+#st.title("Discador de lista")
 st.write(
     "Importe um arquivo .txt, revise os números e controle chamadas sequenciais "
     "em um único lugar."
