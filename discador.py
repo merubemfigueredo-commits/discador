@@ -76,10 +76,10 @@ def render_live_status() -> None:
 #    "em um único lugar."
 #)
 
-st.warning(
-    "Use somente números de pessoas que autorizaram o contato e respeite as leis "
-    "locais, regras de telemarketing e os termos do seu provedor."
-)
+#st.warning(
+ #   "Use somente números de pessoas que autorizaram o contato e respeite as leis "
+ #   "locais, regras de telemarketing e os termos do seu provedor."
+#)
 
 with st.sidebar:
     st.header("Configuração")
