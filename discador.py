@@ -166,7 +166,7 @@ consent = st.checkbox(
     "Confirmo que tenho autorização para contatar todos os números válidos desta lista."
 )
 
-provider, provider_ready = get_provider(mode)
+#provider, provider_ready = get_provider(mode)
 start_col, stop_col = st.columns(2)
 with start_col:
     start_disabled = (
