@@ -192,8 +192,8 @@ with stop_col:
         CONTROLLER.stop()
         st.rerun()
 
-if CONTROLLER.is_running():
-    st.info("O discador está ativo. Use “Parar imediatamente” quando quiser encerrar.")
+#if CONTROLLER.is_running():
+  #  st.info("O discador está ativo. Use “Parar imediatamente” quando quiser encerrar.")
 
 live_status_fragment()
 
