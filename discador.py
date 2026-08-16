@@ -28,13 +28,13 @@ def make_download_bundle() -> bytes:
             archive.write(file_path, file_path.relative_to(PROJECT_DIR.parent))
     return buffer.getvalue()
 
-
+"""
 def get_provider(mode: str):
     if mode == "Demonstração (não faz chamadas)":
         return DemoProvider(), True
     provider = TwilioProvider.from_environment()
     return provider, provider is not None
-
+"""
 
 def render_live_status() -> None:
     state = CONTROLLER.snapshot()
