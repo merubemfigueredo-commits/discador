@@ -69,14 +69,14 @@ def render_live_status() -> None:
 #def live_status_fragment() -> None:
     #render_live_status()
 
-
-#st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
-#st.title("Discador de lista")
+"""
+st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
+st.title("Discador de lista")
 st.write(
     "Importe um arquivo .txt, revise os números e controle chamadas sequenciais "
     "em um único lugar."
 )
-
+"""
 st.warning(
     "Use somente números de pessoas que autorizaram o contato e respeite as leis "
     "locais, regras de telemarketing e os termos do seu provedor."
