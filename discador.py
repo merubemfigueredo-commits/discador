@@ -37,7 +37,7 @@ def get_provider(mode: str):
 """
 
 def render_live_status() -> None:
-    state = CONTROLLER.snapshot()
+   # state = CONTROLLER.snapshot()
     st.subheader("Acompanhamento")
     columns = st.columns(4)
     columns[0].metric("Estado", state["status"])
@@ -67,7 +67,7 @@ def render_live_status() -> None:
 
 @st.fragment(run_every=2)
 def live_status_fragment() -> None:
-    render_live_status()
+    #render_live_status()
 
 
 st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
