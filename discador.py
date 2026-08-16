@@ -70,7 +70,7 @@ def live_status_fragment() -> None:
     #render_live_status()
 
 
-st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
+#st.set_page_config(page_title="Discador de lista", page_icon="☎️", layout="wide")
 st.title("Discador de lista")
 st.write(
     "Importe um arquivo .txt, revise os números e controle chamadas sequenciais "
