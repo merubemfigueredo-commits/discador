@@ -7,7 +7,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from dialer import CONTROLLER, DemoProvider, TwilioProvider, parse_phone_list
+#from dialer import CONTROLLER, DemoProvider, TwilioProvider, parse_phone_list
 
 
 PROJECT_DIR = Path(__file__).parent
